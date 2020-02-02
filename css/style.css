@@ -4,6 +4,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
+   
 }
 
 /**
@@ -16,4 +17,94 @@ body {
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
 
+/* Navigation bar*/
+nav{
+    display: flex;  
+    align-items: flex-end;
+    justify-content: space-around;
+    position: fixed;    
+    background-color: white;
+    width: 100%;
+}
 
+
+
+.karmalogo{
+   width: 50px;
+   padding: auto;
+   margin-left: -200px;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+.navbut {
+    display: flex;  
+    list-style: none;
+    padding: 10px, 10px, 10px, 10px;
+     
+}
+
+.navbut li{
+    padding-left: 30px;
+    color: grey;
+}
+
+.navbut #meetk{
+    color: darkgrey;
+}
+
+.hero{
+width: 130%;
+}
+
+.summary{
+    margin-top: -50%; 
+    margin-bottom: 50%;
+    color: white;
+}
+
+button{
+    background-color: orange;
+    border-radius: 10%;
+    width: 150px;
+    height: 50px;
+}
+
+
+
+section{
+    text-align: center;
+    
+}
+
+footer{
+    text-align: center;
+}
+
+.reasons{
+
+    display: flex; 
+    justify-items: center;
+    padding-left: 20%;
+}
+
+.imgpic li{
+    display: flex; 
+    justify-items: center;
+    list-style: none;
+   
+    
+} 
+.social{
+    display: flex;  
+    flex-direction: row;
+    list-style: none;
+    justify-items: center;
+  
+}
+.comp, .coffee, .fuel{
+    width: 200px;
+    height: 200px;
+}
